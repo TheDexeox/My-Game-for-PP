@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Trigger : MonoBehaviour
 {
-    public string NewScene;
+    public string Level2;
     public RectTransform WinPanel;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class Trigger : MonoBehaviour
     }
     public void LoadNewLevel()
         {
-        SceneManager.LoadScene(NewScene);
+        SceneManager.LoadScene(Level2);
     }
 
 }
